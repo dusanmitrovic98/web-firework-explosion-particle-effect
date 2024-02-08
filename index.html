@@ -76,3 +76,5 @@
         particles[i].draw();
         if (particles[i].alpha <= 0) {
           particles.splice(i, 1);
+          i--;
+        }
